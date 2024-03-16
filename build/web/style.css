@@ -1,0 +1,161 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 27-Jan-2024, 12:07:28 pm
+    Author     : POONAM
+*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600i&display=swap');
+body {
+font: 400 15px/1.8 Lato, sans-serif;
+color: #777;
+}
+h3, h4 {
+margin: 10px 0 30px 0;
+letter-spacing: 10px;      
+font-size: 20px;
+color: #111;
+}
+.container {
+padding: 80px 120px;
+}
+
+.carousel-inner img {
+/* make all photos black and white */ 
+width: 100%; /* Set width to 100% */
+margin: auto;
+}
+.carousel-caption h3 {
+color: #fff !important;
+}
+@media (max-width: 600px) {
+.carousel-caption {
+display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+}
+}
+.bg-1 {
+background: #2d2d30;
+color: #bdbdbd;
+}
+.bg-1 h3 {color: #fff;}
+.bg-1 p {font-style: italic;}
+
+
+
+.carousel-inner{
+width: 100%;
+height: 400px;
+}
+.btn {
+padding: 10px 20px;
+background-color: #333;
+color: #fff;
+border-radius: 0;
+transition: .2s;
+}
+.btn:hover, .btn:focus {
+border: 1px solid #333;
+background-color: #fff;
+color: #fff;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+color: #f4511e !important;
+background-color: #fff !important;
+}
+.nav-tabs li .active a {
+color: #fff;
+}
+
+.navbar {
+font-family: Montserrat, sans-serif;
+margin-bottom: 0;
+background-color: #f4511e;
+border: 0;
+
+font-size: 15px !important;
+letter-spacing: 4px;
+opacity: 0.9;
+height: 100px;
+}
+.navbar li{
+padding-top: 30px;
+}
+.navbar li a, .navbar .navbar-brand { 
+
+color: #fff !important;
+
+}
+
+.navbar-brand img{
+height: 100px;
+width: 30px;
+}
+
+.navbar-default .navbar-toggle {
+border-color: transparent;
+}
+
+
+
+.btn1 {
+padding: 10px 20px;
+background-color: #f4511e;
+color: #fff;
+border-radius: 0;
+border:1px solid #f4511e;
+transition: .2s;
+}
+.btn1:hover, .btn1:focus {
+border: 1px solid #f4511e;
+background-color: #fff;
+color: #000;
+}
+textarea {
+resize: none;
+}
+.modal-title{
+    background-color: #f4511e;
+    color: #fff;
+}
+#Apply .btn:hover{
+    background-color: #fff;
+    border: 1px solid #f4511e;
+    color: #000 !important;
+}
+#Apply .btn {
+    background-color: #f4511e;
+    border: 1px solid #f4511e;
+    color: #fff !important;
+}
+#signinModelHeader
+{
+    background-color : #f4511e;
+}
+.form-control.valid {
+  border-color: green;
+}
+
+.form-control.invalid {
+  border-color: red;
+}
+
+.form-control + small {
+  color: red;
+  opacity: 0;
+  height: 0;
+  transition: opacity .4s ease-out;
+}
+
+.form-control.invalid + small {
+  opacity: 1;
+  height: auto;
+  margin-bottom: 20px;
+  transition: opacity .4s ease-out;
+}
+
+  .required:after {
+    content:" *";
+    color: red;
+  }
+
